@@ -1,0 +1,16 @@
+{
+  "name": "agente-vendas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "firebase-admin": "^11.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
