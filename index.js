@@ -1,3 +1,15 @@
+import express from "express";
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get("/", (req, res) => {
+  res.send("Agente rodando 🚀");
+});
+
+app.listen(PORT, () => {
+  console.log("Servidor online na porta " + PORT);
+});
 import makeWASocket, { useMultiFileAuthState } from '@whiskeysockets/baileys'
 import qrcode from 'qrcode-terminal'
 import axios from 'axios'
