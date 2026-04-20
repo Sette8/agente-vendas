@@ -1,3 +1,6 @@
+console.log(process.env.GOOGLE_API_KEY);
+console.log(process.env.FIREBASE_KEY);
+import 'dotenv/config';
 import express from "express";
 
 const app = express();
